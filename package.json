@@ -1,0 +1,20 @@
+{
+  "name": "linked-list-jest",
+  "version": "1.0.0",
+  "description": "Moodle activity doing testing on a linked list js file with jest",
+  "main": "linkedlist.js",
+
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClaudiaDiaz-Ksquare/Linked-list-jest/issues"
+  },
+  "homepage": "https://github.com/ClaudiaDiaz-Ksquare/Linked-list-jest#readme",
+  "devDependencies": {
+    "jest": "^29.2.2"
+  }
+}
