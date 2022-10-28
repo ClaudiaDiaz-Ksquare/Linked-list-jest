@@ -5,7 +5,7 @@
   "main": "linkedlist.js",
 
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "keywords": [],
   "author": "",
