@@ -17,6 +17,7 @@ class LinkedList {
         console.log(`Original:\n ${this.printList()}`);
     }
 
+    // Method to enter an array of values we want to put in the list
     fillValues(arr){
         // if list is Empty 
         if (arr.length === 0){
@@ -36,6 +37,7 @@ class LinkedList {
         return this;
     }
 
+    // Method to console log the list
     printList() {
         let currNode = this.head;
         let listStr = "";
@@ -50,7 +52,8 @@ class LinkedList {
         }
         return listStr + ` --> ${null}`;
     }
-
+    
+    // Method to convert the list values into an array
     toArray() {
         let currNode = this.head;
         const listArr = [];
